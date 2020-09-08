@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaping's Arg!</title>
+    <link rel="stylesheet" href="Estilos1.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <header>
+                    <section id="cover">
+                        <div class="cover-texto">
+                            <div class="container">
+                                <div class="row">
+                                    <h1 class="display-2">Vaping's Arg!</h1>
+                                    <img  src="Img/3logo.jpg" width="100px" height="100px">
+                                    <br>
+                                                          
+                                </div>
+                                <b >Somos una empresa dedicada a los articulos de </b> <strong>vapeo y esencias..</strong> 
+                            </div>
+                        </div>
+                    </section>
+                </header>
+
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="Inicio.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="Mods.html">Vaporizadores <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="esencias.html">Esencias</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Descuento.html">Descuentos</a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                </nav>
+
+                <div class="jumbotron">
+                  <h1 class="display-4">Participa y Ganate increibles descuentos!</h1>
+                  <p class="lead">Todos los descuentos son cangiables en nuestras sucursales!.</p>
+                  <hr class="my-4">
+                  <b >¿ En que año se empezaron a utilizar los cigarrillos eletronicos ?</b> 3 intentos <br><br>
+                  <a class="btn btn-primary btn-lg" href="" role="button">Vamos!</a>
+                </div>
+                
+                <form>
+                  <div class="form-group">
+                    <label >Tu respuesta es:</label>
+                    <input type="Respuesta" class="form-control" id="txtRespuesta">
+                    <small  class="form-text text-muted" >Esta compuesto por numeros pares. </small>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary" onclick='Enviar()'>Enviar</button>
+                </form>
+                <br>
+                <br>
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Img/vaping_vaper_29.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Img/vaping_vaper_30.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Img/vaping_vaper_27.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+
+                <br><br>
+
+                <b>Escribenos </b>
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label >Nombre</label>
+                      <input type="nombre" class="form-control" id="txtNombre" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label >Apellido</label>
+                      <input type="apellido" class="form-control" id="txtApellido" required>
+                    </div>
+                    <div class="form-group col-md-12">
+                      <label >Mensaje</label>
+                      <input type="mensaje" class="form-control" id="txtMensaje" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="EnviarF();">Enviar</button>
+                </form>
+                 
+
+                
+                <div class="container ">
+                  <div class="row">
+                    <br>
+                    <div class="card-group">
+                      <div class="card col-lg-4 col-sm-4">
+                        <img src="Img/Logo-Instagram.png" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title">Instagram</h5>
+                          <p class="card-text">Siguenos en nuestro instragram para ver nuestros nuevos productos.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-4 col-sm-4">
+                        <img src="Img/Twitter-Logo.png" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title"> Twitter</h5>
+                          <p class="card-text">Siguenos en nuestro Twitter para no perderte las noticias en el mundo del vapeo.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-4 col-sm-4">
+                        <img src="Img/facebook-logo-f-sqaure1.png" class="card-img-top"  >
+                        <div class="card-body">
+                          <h5 class="card-title">Facebook</h5>
+                          <p class="card-text">Siguenos en Facebook para formar parte del grupo del Vaping's.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+            </div>            
+        </div>        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
